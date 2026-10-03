@@ -1,0 +1,15 @@
+{
+  "name": "qms-names",
+  "version": "0.1.0",
+  "description": "Resolve .qms names to addresses (and back) on QMS Network. Tiny ethers v6 helper.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": { ".": { "types": "./src/index.d.ts", "default": "./src/index.js" } },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test test/*.test.js" },
+  "keywords": ["qms", "naming", "ens", "ethers", "web3"],
+  "license": "MIT",
+  "peerDependencies": { "ethers": "^6.0.0" },
+  "devDependencies": { "ethers": "^6.13.0" }
+}
