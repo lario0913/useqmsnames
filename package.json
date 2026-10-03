@@ -12,5 +12,5 @@
   "license": "MIT",
   "peerDependencies": { "ethers": "^6.0.0" },
   "devDependencies": { "ethers": "^6.13.0" },
-  "repository": { "type": "git", "url": "git+https://github.com/YOURUSERNAME/qms-names-js.git" }
+  "repository": { "type": "git", "url": "git+https://github.com/lario0913/useqmsnames.git" }
 }
